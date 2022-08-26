@@ -1,0 +1,310 @@
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    
+}
+
+h1{
+    font-size: 62px;
+    font-weight: bold;
+    padding-top: 90px;
+}
+
+/* Header */
+.title-header {
+    padding: 2% 13% 5%;
+    line-height: 1.5;
+    background-color: #f8f6f4;
+    color: black;
+}
+
+.image-header {
+    width: 100%;
+}
+
+.row {
+    padding-top: 5%;
+}
+
+.title-h2{
+    text-align: left;
+    
+}
+
+/* NavBar */
+
+.nav-link {
+    color: black;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: #ed553b;
+    text-decoration: underline;
+}
+
+.nav-item {
+    padding: 0 4%;
+}
+
+.menu-button{
+    background-color: #ed553b;
+}
+
+.myBrand{
+    width: 100px;
+    
+}
+
+.navbar-brand {
+    color: black;
+    font-weight: 700;
+}
+
+.navbar-brand:hover {
+    color: black;
+    font-weight: 700;
+}
+
+/* About */
+
+.about {
+    padding: 5% 15%;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.about h3 {
+    padding: 5% 7% 5%;
+    line-height: 1.5;
+}
+
+.about h4 {
+    padding: 5% 7% 2%;
+   
+}
+
+
+.rule {
+    padding: 0% 0 2% 10%;
+    line-height: 1.5;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/* .yellow-box {
+    background-color: #ffdc4d;
+    padding: 5% ;
+} */
+
+/* Skills */
+
+.skill {
+    padding: 4% 5% 0% 5%;
+    text-align: center;
+}
+
+
+
+#skills img {
+    width: 10rem;
+}
+
+#skills p{
+    font-weight: 300;
+    font-size: 1.5rem;
+}
+
+.skill-color {
+    padding: 5% 10% 7%;
+    line-height: 1.5;
+    background-color: #f8f6f4;
+    color: black;
+}
+
+
+/* Projects */
+
+.slide {
+    padding: 10% 15% 5%;
+    background-color: #ed553b;
+    color: #fff;
+    
+}
+
+.slide h2 {
+    text-align: left;
+}
+
+@media (max-width:763px) {
+    .slide h2 {
+        text-align: left;
+        font-size: 30px;
+    }
+    
+    
+}
+ 
+.slide img {
+    width: 30%;
+    text-align: center;
+    margin: 5% 1% 0;
+    border-radius: 5%;
+}
+
+/* Button */
+.but{
+    text-align: center;
+}
+
+.btn--dark.is-outline {
+    background: transparent;
+}
+.btn--dark.is-outline, .btn--dark:hover {
+    border-color: #1d1c1d;
+    color: #1d1c1d;
+    
+}
+
+.btn--dark.is-outline:hover {
+    color:white;
+    background-color: black;
+}
+
+.btn--dark {
+    background: #1d1c1d;
+}
+.btn {
+    color:#fff;
+    font-weight: 700;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 2% 1% 0;
+}
+
+.btn--dark:hover {
+    background: transparent;
+    border: 1px solid black;
+}
+
+
+/* Message */
+
+.message {
+    padding: 10% 15% 5%;
+}
+
+.message h3 {
+    padding-top: 2%;
+    text-align: center;
+    font-weight: 300;
+    color: #8f8f8f;
+}
+
+
+.message .btn--dark {
+    background: #ed553b;
+}
+.message .btn {
+    font-size: 1.3rem;
+    color:#fff;
+    margin: 3% 0 0 40% ;
+}
+
+@media (max-width:763px) {
+    .message .btn {
+        font-size: medium;
+        color:#fff;
+        margin: 3% 0 0 30% ;
+    }
+}
+
+
+.message .btn--dark:hover {
+    background: #fff;
+    border: 1px solid #ed553b;
+    color:#ed553b;
+} 
+
+
+/* Footer */
+
+.footer{
+    background-color: #f8f6f4;
+    color: black;
+    text-align: center;
+    padding: 3% 2% 1%;
+}
+
+
+
+.las {
+    margin: 0 5px 20px;
+    color: black;
+}
+
+
+@media (max-width:763px) {
+    .skill {
+        padding: 4% 5% 10% 5%;
+        text-align: center;
+    }
+    
+    .about img {
+        width: 100%;
+    }
+
+    .but {
+        margin-top:5%;
+    }
+    
+    .title-h2{
+        text-align: left;
+        font-size: xx-large;
+    }
+
+    .message h2 {
+        font-size: xx-large;
+    }
+
+    .message h3 {
+        font-size: medium;
+    }
+
+    .about h3 {
+        padding: 5% 7% 5%;
+        line-height: 1.5;
+        font-size: x-large;
+    }
+
+    .about h4 {
+        padding: 5% 7% 2%;
+       font-size: large;
+    }
+    
+    
+    .rule {
+        padding: 0% 0 2% 10%;
+        line-height: 1.5;
+        font-weight: 300;
+        font-size: large;
+    }
+
+    /* .navbar-toggler{
+        width: 7rem;
+        height: 5rem;
+    } */
+
+    .navbar-nav {
+       
+    }
+
+    .nav-item {
+        padding: 0 20% 0 0;
+        font-size: 1.2rem;
+    }
+
+   
+}
